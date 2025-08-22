@@ -1,0 +1,10 @@
+{
+  "name": "Portfolio",
+  "type": "module",
+  "scripts": {
+    "dev": "vite"
+  },
+  "dependencies": {
+    "vite": "^7.1.3"
+  }
+}
