@@ -1,13 +1,43 @@
 {
     "activeProjects": [
         {
-            "name": "Voxel Raytracing ENgine",
-            "img": "./assets/imgs/projects/VoxelEngine.png",
-            "link": "https://github.com/Rylthos/VoxelEngine",
-            "description": "A voxel based raytracer"
+            "name": "Panthera Avionics",
+            "img": "./assets/imgs/projects/Panthera.png",
+            "link": "https://github.com/cuspaceflight/PantheraElectronics",
+            "description": "Designed and programmed the avionics for the Panthera rocket for CUSF"
+        },
+        {
+            "name": "Velox ground station",
+            "img": "./assets/imgs/projects/Velox.png",
+            "link": "https://github.com/cuspaceflight/Velox",
+            "description": "Designed and programmed the velox ground stations for CUSF"
         }
     ],
     "previousProjects": [
+        {
+            "name": "Differential Analyser",
+            "img": "./assets/imgs/projects/DifferentialAnalyser.png",
+            "link": "https://differentialanalyser.github.io/",
+            "description": "Group project for Cambridge CS Part IB "
+        },
+        {
+            "name": "Tigris Avionics",
+            "img": "",
+            "link": "",
+            "description": "Designed and programmed the avionics for the Tigris rocket for CUSF"
+        },
+        {
+            "name": "LED Christmas Tree",
+            "img": "./assets/imgs/projects/ChristmasTree.png",
+            "link": "https://github.com/Rylthos/LED3DPositionCalculator",
+            "description": "Wrote software for calculating the 3D positions of LEDs in a christmas tree for use in custom software for 3D affects"
+        },
+        {
+            "name": "Voxel Raytracing Engine",
+            "img": "./assets/imgs/projects/VoxelEngine.png",
+            "link": "https://github.com/Rylthos/VoxelEngine",
+            "description": "A voxel based raytracer"
+        },
         {
             "name": "Compute shader Raytracer",
             "img": "./assets/imgs/projects/ComputeShaderRaytracer.png",
