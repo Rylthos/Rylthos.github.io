@@ -1,0 +1,34 @@
+#projects_grid {
+  display: grid;
+}
+
+.project {
+  display: flex;
+  flex-direction: row;
+
+  background: red;
+
+  width: 100%;
+}
+
+.project_content {
+  width: 100%;
+  background: green;
+}
+
+.project_image {
+  width: 30vw;
+}
+
+.project > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.project_title {
+  width: 100%;
+}
+
+.project_about {
+  width: 100%;
+}
