@@ -11,7 +11,7 @@ async function readJson() {
 function generateHTML(project) {
   let name = project["name"];
   let link = project["link"];
-  let img = project["img"];
+  let img_path = project["img"];
   let desc = project["description"];
 
   let projects_list = document.querySelector("#projects_grid");
@@ -19,21 +19,31 @@ function generateHTML(project) {
   let div = document.createElement("div");
   div.className = `project`;
 
-  let imgElement = document.createElement("img");
-  imgElement.src = `./projects/images/${img}`
-  imgElement.alt = `${name}`;
-  imgElement.className = `project_image`;
-  div.appendChild(imgElement);
+  let title_div = document.createElement("h2");
+  title_div.className = "project_title";
+  title_div.innerHTML = name;
+  div.appendChild(title_div);
+
+  let bar = document.createElement("div");
+  bar.className = "project_bar";
+  div.appendChild(bar);
 
   let content_div = document.createElement("div");
   content_div.className = "project_content";
 
-  let title_div = document.createElement("div");
-  title_div.className = "project_title";
-  title_div.innerHTML = name;
-  content_div.appendChild(title_div);
+  let imgElement = document.createElement("img");
+  imgElement.src = `./projects/images/${img_path}`
+  imgElement.alt = `${name}`;
+  imgElement.className = `project_image`;
 
-  let about_div = document.createElement("div");
+  let img = document.createElement("a")
+  img.href = link
+  img.target = "_blank"
+  img.appendChild(imgElement);
+
+  content_div.appendChild(img);
+
+  let about_div = document.createElement("p");
   about_div.className = "project_about";
   about_div.innerHTML = desc;
   content_div.appendChild(about_div);

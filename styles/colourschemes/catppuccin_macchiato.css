@@ -1,0 +1,18 @@
+[data-theme="catppuccin_macchiato"] {
+  --base00: #24273A;  /* Base */
+  --base01: #1E2030;  /* Mantle */
+  --base02: #363A4F;  /* Surface0 */
+  --base03: #494D64;  /* Surface1 */
+  --base04: #5B6078;  /* Surface2 */
+  --base05: #CAD3F5;  /* Text */
+  --base06: #F4DBD6;  /* Rosewater */
+  --base07: #B7BDF8;  /* Lavendar */
+  --base08: #ED8796;  /* Red */
+  --base09: #F5A97F;  /* Peach */
+  --base0A: #EED49F;  /* Yellow */
+  --base0B: #A6DA95;  /* Green */
+  --base0C: #8BD5CA;  /* Teal */
+  --base0D: #8AADF4;  /* Blue */
+  --base0E: #C6A0F6;  /* Mauve */
+  --base0F: #F0C6C6;  /* Flamingo */
+}

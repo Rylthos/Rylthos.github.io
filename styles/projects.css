@@ -1,34 +1,55 @@
 #projects_grid {
   display: grid;
+
+  gap: 8px;
 }
 
 .project {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 
-  background: red;
+  background-color: var(--base02);
 
-  width: 100%;
+  border-radius: 8px;
+
+  padding: 8px;
+}
+.project_title {
+  padding: 8px;
+  margin: 0px;
+
+  font-size: 30px;
 }
 
 .project_content {
-  width: 100%;
-  background: green;
+  display: flex;
+  flex-direction: row;
+
+  gap: 8px;
 }
 
 .project_image {
-  width: 30vw;
+  margin: 8px;
 }
 
-.project > div {
-  display: flex;
-  flex-direction: column;
-}
-
-.project_title {
+.project_bar {
   width: 100%;
+
+  height: 4px;
+
+  border-radius: 4px;
+
+  background-color: var(--base00);
 }
 
 .project_about {
   width: 100%;
+  height: auto;
+
+  background-color: var(--base03);
+  padding: 8px;
+
+  border-radius: 8px;
+
+  font-size: 25px;
 }

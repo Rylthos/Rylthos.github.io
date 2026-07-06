@@ -1,38 +1,61 @@
-.body {
+body {
   margin: 0;
   padding: 0;
+
+  height: auto;
+
+  display: block;
+
+  color: var(--base05);
+  background-color: var(--base00);
 }
 
 #main_body {
   display: flex;
   flex-direction: column;
 
-  background: red;
-
-  width: 100%;
-  height: 100%;
+  margin: 8px;
 }
 
 #links {
+  top: 8px;
+  position: fixed;
+  width: 100%;
+
   display: flex;
   flex-direction: row;
 
-  background: blue;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 8px;
+
+  background-color: var(--base01);
 
   width: 100%;
-  height: 8vh;
+  height: 6vh;
+}
+
+#links a {
+  text-align: center;
+  text-decoration: none;
+  display: block;
+
+  color: var(--base05);
+  font-size: 20px;
+}
+
+#links a:hover {
+  color: var(--base0D);
 }
 
 #content {
-  background: green;
+  margin-top: 4vh;
 
   width: 100%;
-  height: 100%;
 }
 
 .section {
   display: flex;
   flex-direction: column;
-
-  background: aqua;
 }
