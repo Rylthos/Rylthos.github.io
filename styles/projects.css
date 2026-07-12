@@ -99,6 +99,10 @@
     align-items: center;
   }
 
+  .project_about {
+    width: auto;
+  }
+
   .project_title_div {
     flex-direction: column;
   }
