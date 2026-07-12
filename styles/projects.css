@@ -14,11 +14,37 @@
 
   padding: 8px;
 }
-.project_title {
+
+.project_title_div {
   padding: 8px;
   margin: 0px;
 
+  width: 100%;
+
   font-size: 30px;
+
+  display: flex;
+
+  flex-direction: row;
+
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project_title {
+  position: relative;
+  left: 0;
+
+  margin: 15px;
+}
+
+.project_date {
+  position: relative;
+  right: 0;
+
+  opacity: 80%;
+
+  margin: 15px;
 }
 
 .project_content {
@@ -30,6 +56,8 @@
 
 .project_image {
   margin: 8px;
+
+  border-radius: 4px;
 }
 
 .project_bar {
@@ -52,4 +80,26 @@
   border-radius: 8px;
 
   font-size: 25px;
+
+  margin-top: 8px;
+}
+
+@media only screen and (max-device-width: 600px) {
+  .project_content {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .project_content a {
+    display: flex;
+    justify-content: center;
+  }
+
+  .project_content a > img {
+    align-items: center;
+  }
+
+  .project_title_div {
+    flex-direction: column;
+  }
 }

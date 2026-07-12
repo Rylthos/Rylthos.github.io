@@ -1,76 +1,97 @@
 {
     "projects": [
         {
-            "name": "Panthera Avionics",
-            "img": "Panthera.png",
-            "link": "https://github.com/cuspaceflight/PantheraElectronics",
-            "description": "Designed and programmed the avionics for the Panthera rocket for CUSF"
+            "name": "Concat",
+            "img": "Concat.png",
+            "link": "https://github.com/Rylthos/Concat",
+            "date": "Jun 2026 - Current",
+            "description": [
+                "A stack based programming language",
+                "Being developed with the aim of being bootstrapped"
+            ]
+        },
+        {
+            "name": "Dissertation",
+            "img": "Dissertation.png",
+            "link": "https://github.com/Rylthos/PartIIProject",
+            "date": "Sep 2025 - Jun 2026",
+            "description": [
+                "Comparison of Voxel Ray Marching Acceleration Structures",
+                "An implementation of grid, tree and hybrid acceleration structures for voxel based ray marching"
+            ]
         },
         {
             "name": "Velox ground station",
             "img": "Velox.png",
             "link": "https://github.com/cuspaceflight/Velox",
-            "description": "Designed and programmed the velox ground stations for CUSF"
+            "description": [
+                "Designed and programmed ground stations for use within the CUSF society",
+                "Designed to be useable with all current and future communications between rockets/balloons",
+                "Originally designed and tested to be used with Panthera"
+            ]
+        },
+        {
+            "name": "Panthera Avionics",
+            "img": "Panthera.png",
+            "link": "https://github.com/cuspaceflight/PantheraElectronics",
+            "description": [
+                "Designed and programmed the avionics for the Panthera rocket for CUSF"
+            ]
         },
         {
             "name": "Differential Analyser",
             "img": "DifferentialAnalyser.png",
             "link": "https://differentialanalyser.github.io/",
-            "description": "Group project for Cambridge CS Part IB "
+            "date": "Jan 2025 - Mar 2025",
+            "description": [
+                "Group project for Cambridge CS Part IB",
+                "A simulation of a physical differential analyser, able to represent larger machines then were physically possible e.g. a double pendulum simulation",
+                "Won the award for the most professional project"
+            ]
         },
         {
             "name": "LED Christmas Tree",
             "img": "ChristmasTree.png",
             "link": "https://github.com/Rylthos/LED3DPositionCalculator",
-            "description": "Wrote software for calculating the 3D positions of LEDs in a christmas tree for use in custom software for 3D affects"
-        },
-        {
-            "name": "Voxel Raytracing Engine",
-            "img": "VoxelEngine.png",
-            "link": "https://github.com/Rylthos/VoxelEngine",
-            "description": "A voxel based raytracer"
+            "description": [
+                "3D position calculator and renderer for programmable LEDs",
+                "LEDs controlled over DDP",
+                "TLI for controlling and configuring effects"
+            ]
         },
         {
             "name": "Compute shader Raytracer",
             "img": "ComputeShaderRaytracer.png",
             "link": "https://github.com/Rylthos/ComputeShaderRaytracer",
-            "description": "A compute shader raytracer based on the raytracer from the 'Raytracing in one weekend' series by Peter Shirley"
+            "description": [
+                "A compute shader raytracer based on the raytracer from the 'Raytracing in one weekend' series by Peter Shirley",
+                "Adapated to run on the GPU using OpenGL compute shaders with UI written with ImGUI"
+            ]
         },
         {
             "name": "Rubik Cube Solver",
             "img": "RubikCube.png",
             "link": "https://github.com/Rylthos/RubikCubeSolver",
-            "description": "A Rubik cube visualiser and solver capable of solving both a 2x2 and 3x3 cube based on the beginner's method"
+            "description": [
+                "A Rubik cube visualiser and solver capable of solving both a 2x2 and 3x3 cube based on the beginner's method",
+                "Written as a proof of concept in C++, for my ALevel NEA which was written in C#"
+            ]
         },
         {
             "name": "LED Controller",
             "img": "LEDController.png",
             "link": "https://github.com/Rylthos/LEDController",
-            "description": "A controller for an LED matrix using WLED for control, allowing for different effects and colour palettes to be selected and created"
-        },
-        {
-            "name": "Concat",
-            "img": "Concat.png",
-            "link": "https://github.com/Rylthos/Concat",
-            "description": "A Reverse Polish Notation (RPN) based scripting language"
+            "description": [
+                "A controller for an LED matrix using WLED for control, allowing for different effects and colour palettes to be selected and created"
+            ]
         },
         {
             "name": "OCaml Ray Tracer",
             "img": "OcamlRayTracer.png",
             "link": "https://github.com/Rylthos/OcamlRaytracer/tree/V2",
-            "description": "A raytracer written in OCaml, outputting to a PPM file. Capable of loading OBJ files"
-        },
-        {
-            "name": "OCaml LR Parser / Lexer",
-            "img": "",
-            "link": "https://github.com/Rylthos/OCamlCalculatorCompiler",
-            "description": "A basic Parser/Lexer that takes an LR grammar and generates a parse tree for an expression"
-        },
-        {
-            "name": "LR Table Generator",
-            "img": "",
-            "link": "https://github.com/Rylthos/LRGenerator",
-            "description": "An Ocaml program that takes a grammar and returns the goto and action tables for the language"
+            "description": [
+                "A raytracer written in OCaml, outputting to a PPM file. Capable of loading OBJ files"
+            ]
         }
     ]
 }

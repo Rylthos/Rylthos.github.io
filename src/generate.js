@@ -12,16 +12,32 @@ function generateHTML(project) {
   let name = project["name"];
   let link = project["link"];
   let img_path = project["img"];
+  let date_str = project["date"];
   let desc = project["description"];
+
+  if (date_str == undefined) {
+    date_str = ""
+  }
 
   let projects_list = document.querySelector("#projects_grid");
 
   let div = document.createElement("div");
   div.className = `project`;
 
-  let title_div = document.createElement("h2");
-  title_div.className = "project_title";
-  title_div.innerHTML = name;
+  let title_div = document.createElement("div");
+  title_div.className = "project_title_div"
+
+  let title = document.createElement("h2");
+  title.className = "project_title";
+  title.innerHTML = name;
+
+  let date = document.createElement("h4");
+  date.className = "project_date";
+  date.innerHTML = date_str;
+
+  title_div.append(title)
+  title_div.append(date)
+
   div.appendChild(title_div);
 
   let bar = document.createElement("div");
@@ -43,9 +59,15 @@ function generateHTML(project) {
 
   content_div.appendChild(img);
 
-  let about_div = document.createElement("p");
+  let about_div = document.createElement("div");
   about_div.className = "project_about";
-  about_div.innerHTML = desc;
+
+  for (let i = 0; i < desc.length; i++) {
+    let para = document.createElement("p");
+    para.innerHTML = desc[i];
+    about_div.appendChild(para);
+  }
+
   content_div.appendChild(about_div);
 
   div.appendChild(content_div);

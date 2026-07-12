@@ -1,0 +1,1 @@
+magick <input> -resize 500x500 -gravity center -background none -extent 500x500 <output>
