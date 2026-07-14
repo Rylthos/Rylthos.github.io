@@ -16,3 +16,7 @@
   --base0E: #C6A0F6;  /* Mauve */
   --base0F: #F0C6C6;  /* Flamingo */
 }
+
+#colour_macchiato > div {
+  background-color: #ED8796;
+}
