@@ -1,10 +1,12 @@
-<html data-theme="catppuccin_macchiato">
   <head>
+    <html data-theme="catppuccin_macchiato">
     <title>Rylthos Portfolio</title>
 
     <link rel="stylesheet" href="styles/main.css"/>
     <link rel="stylesheet" href="styles/projects.css"/>
+    <link rel="stylesheet" href="styles/footer.css"/>
     <link rel="stylesheet" href="styles/colourscheme.css"/>
+    <link rel="stylesheet" href="styles/mobile.css"/>
 
     <script type="module" src="src/main.js"></script>
 
@@ -17,9 +19,17 @@
 
       <div id=footer>
         <div id=colourscheme_selector>
-          <div data-colourscheme="catppuccin_macchiato" id="colour_macchiato" class="colour_selector selected"> <div></div> </div>
-          <div data-colourscheme="catppuccin_mocha" id="colour_mocha" class="colour_selector"> <div></div> </div>
-          <div data-colourscheme="everforest" id="colour_everforest" class="colour_selector"> <div></div> </div>
+          <div data-colourscheme="catppuccin_macchiato" id="colour_macchiato" class="colour_selector selected">
+            <span class="tooltiptext">Catppuccin Macchiato</span>
+          </div>
+
+          <div data-colourscheme="catppuccin_mocha" id="colour_mocha" class="colour_selector">
+            <span class="tooltiptext">Catppuccin Mocha</span>
+          </div>
+
+          <div data-colourscheme="everforest" id="colour_everforest" class="colour_selector">
+            <span class="tooltiptext">Everforest</span>
+          </div>
         </div>
       </div>
 

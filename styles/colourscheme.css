@@ -1,3 +1,67 @@
 @import "colourschemes/catppuccin_macchiato.css";
 @import "colourschemes/catppuccin_mocha.css";
 @import "colourschemes/everforest.css";
+
+#colourscheme_selector {
+  display: flex;
+
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  gap: 5px;
+}
+
+.colour_selector {
+  display: inline-block;
+
+  width: 30px;
+  aspect-ratio: 1;
+
+  border-width: 4pt;
+  border-radius: 19px;
+  border-style: solid;
+  border-color: transparent;
+}
+
+.selected {
+  border-color: var(--base0D);
+}
+
+.colour_selector .tooltiptext {
+  visibility: hidden;
+
+  position: absolute;
+  z-index: 1;
+  width: 120px;
+  background-color: var(--base04);
+  color: var(--base05);
+  padding: 5px 0;
+  opacity: 0;
+  transition: opacity 0.3s;
+
+  bottom: 100%;
+
+  border-radius: 6px;
+  text-align: center;
+  margin-left: -60px;
+}
+
+.colour_selector .tooltiptext::after {
+  content: "";
+  position: absolute;
+
+  top: 100%;
+  left: 59%;
+
+  margin-left: -5px;
+
+  border-width: 10px;
+  border-style: solid;
+  border-color: var(--base04) transparent transparent transparent;
+}
+
+.colour_selector:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}

@@ -83,27 +83,3 @@
 
   margin-top: 8px;
 }
-
-@media only screen and (max-device-width: 600px) {
-  .project_content {
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  .project_content a {
-    display: flex;
-    justify-content: center;
-  }
-
-  .project_content a > img {
-    align-items: center;
-  }
-
-  .project_about {
-    width: auto;
-  }
-
-  .project_title_div {
-    flex-direction: column;
-  }
-}
