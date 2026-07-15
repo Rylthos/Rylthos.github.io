@@ -1,6 +1,7 @@
 @import "colourschemes/catppuccin_macchiato.css";
 @import "colourschemes/catppuccin_mocha.css";
 @import "colourschemes/everforest.css";
+@import "colourschemes/gruvbox.css";
 
 #colourscheme_selector {
   display: flex;
